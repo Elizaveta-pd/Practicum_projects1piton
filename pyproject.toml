@@ -17,5 +17,5 @@ target-version = "py312"
 exclude = ["venv", ".venv", "dist", "__pycache__"]
 
 [tool.ruff.lint]
-select = ["E", "F", "I"]
+sеlect = ["E", "F", "I"]
 ignore = []
