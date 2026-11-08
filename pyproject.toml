@@ -11,6 +11,11 @@ dev = [
     "ruff>=0.17.4",
 ]
 
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+exclude = ["venv", ".venv", "dist", "__pycache__"]
+
 [tool.ruff.lint]
 select = ["E", "F", "I"]
 ignore = []
